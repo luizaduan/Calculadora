@@ -1,0 +1,40 @@
+<div class="calc-container">
+    <div class="brand">Calculadora</div>
+    <input type="text" id="visor" placeholder="0" readonly>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <div class="teclado">
+        <button class="btn-sci" onclick="inserir('sin(')">sin</button>
+        <button class="btn-sci" onclick="inserir('cos(')">cos</button>
+        <button class="btn-sci" onclick="inserir('sqrt(')">√</button>
+        <button class="btn-op" onclick="limpar()">AC</button>
+
+        <button onclick="inserir('7')">7</button>
+        <button onclick="inserir('8')">8</button>
+        <button onclick="inserir('9')">9</button>
+        <button class="btn-op" onclick="inserir('/')">÷</button>
+
+        <button onclick="inserir('4')">4</button>
+        <button onclick="inserir('5')">5</button>
+        <button onclick="inserir('6')">6</button>
+        <button class="btn-op" onclick="inserir('*')">×</button>
+
+        <button onclick="inserir('1')">1</button>
+        <button onclick="inserir('2')">2</button>
+        <button onclick="inserir('3')">3</button>
+        <button class="btn-op" onclick="inserir('-')">-</button>
+
+        <button onclick="inserir('0')">0</button>
+        <button onclick="inserir('.')">.</button>
+        <button class="btn-igual" onclick="resolver()">=</button>
+        <button class="btn-op" onclick="inserir('+')">+</button>
+
+        <button class="btn-sci" onclick="inserir('(')">(</button>
+        <button class="btn-sci" onclick="inserir(')')">)</button>
+        <button class="btn-sci" onclick="inserir('π')">π</button>
+        <button class="btn-op" onclick="limpar()">AC</button>
+
+    </div>
+</div>
